@@ -5,7 +5,7 @@ import json
 openai.api_key = os.getenv("OPENAI_API_KEY")
 
 def generate_content(prompt, model="gpt-4", max_tokens=500):
-    " Generate text using OpenAI's GPT model."""
+    """Generate text using OpenAI's GPT model."""
     try:
         response = openai.ChatCompletion.create(
             model=model,
