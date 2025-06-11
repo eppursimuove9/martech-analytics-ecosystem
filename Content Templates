@@ -1,1 +1,21 @@
+📄 email_templates.json
 
+{
+  "welcome_email": {
+    "subject": "Welcome to {{company_name}}!",
+    "body": "Hi {{user_name}},\n\nThank you for joining {{company_name}}. Here’s how to get started...",
+    "variables": ["company_name", "user_name"]
+  },
+  "abandoned_cart": {
+    "subject": "Forgot something? Your cart is waiting!",
+    "body": "Hi {{user_name}},\n\nYour cart is waiting! Complete your purchase now...",
+    "variables": ["user_name"]
+  }
+}
+
+
+📄 social_media_templates.csv
+
+platform,content_type,template
+LinkedIn, post,"🚀 Exciting news! We just launched {{feature_name}}. Check it out: {{url}}"
+Twitter, thread, "Day 1/7: Marketing tips!\n\n1. Use GPT for content ideas. A/B test everything\n3. Track ROI with {{tool_name}}"
