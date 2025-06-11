@@ -1,1 +1,3 @@
-
+platform,content_type,template
+LinkedIn,post,"🚀 Exciting news! We just launched {{feature_name}}. Check it out: {{url}}"
+Twitter,thread,"Day 1/7: Marketing tips!\n\n1. Use GPT for content ideas\n2. A/B test everything\n3. Track ROI with {{tool_name}}"
