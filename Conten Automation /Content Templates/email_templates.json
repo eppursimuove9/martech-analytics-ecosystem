@@ -1,1 +1,12 @@
-
+{
+  "welcome_email": {
+    "subject": "Welcome to {{company_name}}!",
+    "body": "Hi {{user_name}},\n\nThank you for joining {{company_name}}. Here’s how to get started...",
+    "variables": ["company_name", "user_name"]
+  },
+  "abandoned_cart": {
+    "subject": "Forgot something? Your cart is waiting!",
+    "body": "Hi {{user_name}},\n\nYour cart is waiting! Complete your purchase now...",
+    "variables": ["user_name"]
+  }
+}
