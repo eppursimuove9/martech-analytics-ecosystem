@@ -1,1 +1,112 @@
+{
+  "templates": [
+    {
+      "template_name": "how_to_guide",
+      "title": "How to {{action}} in {{current_year}}: A Step-by-Step Guide",
+      "meta_description": "Learn how to {{action}} with this comprehensive guide. Perfect for {{target_audience}}.",
+      "structure": {
+        "introduction": "In today's fast-evolving {{industry}}, knowing how to {{action}} is crucial for {{benefit}}. This guide will walk you through the entire process.",
+        "sections": [
+          {
+            "heading": "What You'll Need to {{action}}",
+            "content": "Before starting, ensure you have:\n- {{requirement_1}}\n- {{requirement_2}}\n- {{requirement_3}}"
+          },
+          {
+            "heading": "Step-by-Step Process",
+            "content": "1. **{{step_1}}**: {{description_1}}\n2. **{{step_2}}**: {{description_2}}\n3. **{{step_3}}**: {{description_3}}"
+          }
+        ],
+        "conclusion": "By following these steps, you'll be able to {{action}} efficiently. For more advanced tips, check out our {{related_resource}}."
+      },
+      "variables": [
+        "action",
+        "current_year",
+        "industry",
+        "target_audience",
+        "benefit",
+        "requirement_1",
+        "requirement_2",
+        "requirement_3",
+        "step_1",
+        "description_1",
+        "step_2",
+        "description_2",
+        "step_3",
+        "description_3",
+        "related_resource"
+      ]
+    },
+    {
+      "template_name": "list_post",
+      "title": "{{number}} {{topic}} Tips for {{target_audience}}",
+      "meta_description": "Discover {{number}} actionable {{topic}} tips to help you {{desired_outcome}}.",
+      "structure": {
+        "introduction": "Whether you're a beginner or an expert in {{topic}}, these {{number}} strategies will help you {{desired_outcome}}.",
+        "items": [
+          {
+            "heading": "{{tip_1_title}}",
+            "content": "{{tip_1_description}}"
+          },
+          {
+            "heading": "{{tip_2_title}}",
+            "content": "{{tip_2_description}}"
+          }
+        ],
+        "conclusion": "Implement these {{topic}} tips today to see measurable improvements in your {{success_metric}}."
+      },
+      "variables": [
+        "number",
+        "topic",
+        "target_audience",
+        "desired_outcome",
+        "tip_1_title",
+        "tip_1_description",
+        "tip_2_title",
+        "tip_2_description",
+        "success_metric"
+      ]
+    },
+    {
+      "template_name": "industry_trends",
+      "title": "{{year}} {{industry}} Trends You Can't Ignore",
+      "meta_description": "Stay ahead of the curve with these {{number}} emerging {{industry}} trends in {{year}}.",
+      "structure": {
+        "introduction": "As we navigate {{year}}, the {{industry}} landscape is being reshaped by {{trend_driver}}. Here's what you need to know.",
+        "trends": [
+          {
+            "name": "{{trend_1_name}}",
+            "description": "{{trend_1_description}}",
+            "example": "{{trend_1_example}}"
+          },
+          {
+            "name": "{{trend_2_name}}",
+            "description": "{{trend_2_description}}",
+            "example": "{{trend_2_example}}"
+          }
+        ],
+        "conclusion": "Adapting to these {{industry}} trends will position your {{business_type}} for success in {{timeframe}}."
+      },
+      "variables": [
+        "year",
+        "industry",
+        "number",
+        "trend_driver",
+        "trend_1_name",
+        "trend_1_description",
+        "trend_1_example",
+        "trend_2_name",
+        "trend_2_description",
+        "trend_2_example",
+        "business_type",
+        "timeframe"
+      ]
+    }
+  ],
+  "default_variables": {
+    "current_year": "2024",
+    "target_audience": "marketers",
+    "industry": "MarTech",
+    "number": "5"
+  }
+}
 
